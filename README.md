@@ -9,9 +9,9 @@ A static router for creating hash routes.
 Use **npm** or **yarn** to install domr-framework
 
 ```
-    npm install domr-framework --save
+    npm install domr-router --save
     
-    yarn add domr-framework
+    yarn add domr-router
 ```
 
 
@@ -21,7 +21,7 @@ Use **npm** or **yarn** to install domr-framework
 ## Use Router
 
 ```javascript
-    import { Router } from 'domr-framework';
+    import { Router } from 'domr-router';
     import HomePageView from './views/HomePageView';
     import ConfigView from './views/ConfigView';
 
