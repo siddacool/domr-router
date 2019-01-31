@@ -1,0 +1,31 @@
+{
+  "name": "domr-router",
+  "version": "1.0.0",
+  "description": "a Component Based JavaScript Micro-Framework equipped with a static Router",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel source --presets babel-preset-env --out-dir distribution",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddacool/domr-router.git"
+  },
+  "keywords": [
+    "framework",
+    "js",
+    "javascript router",
+    "router",
+    "hash router"
+  ],
+  "author": "Siddhesh Mangela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddacool/domr-router/issues"
+  },
+  "homepage": "https://github.com/siddacool/domr-router/",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
