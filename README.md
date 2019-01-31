@@ -6,7 +6,7 @@ A static router for creating hash routes.
 
 ## Install
 
-Use **npm** or **yarn** to install domr-framework
+Use **npm** or **yarn** to install domr-router
 
 ```
     npm install domr-router --save
